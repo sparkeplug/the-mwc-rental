@@ -1,0 +1,13 @@
+.form-wrapper {
+  display: block;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  padding-left: 3em;
+  padding-right: 3em;
+  .form {
+      display: grid;
+      position: relative;
+      gap: 2em ;
+  }
+}
