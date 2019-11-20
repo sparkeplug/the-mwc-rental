@@ -92,7 +92,7 @@ export default function Form() {
       data.append(pair[0], pair[1]);
     }
 
-    fetch(`${process.env.REACT_APP_API_URL}/owner/register`, {
+    fetch(`${process.env.REACT_APP_API_URL}/api/owner/register`, {
       method: "POST",
       body: data
     })
